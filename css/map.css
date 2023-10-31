@@ -1,29 +1,81 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
+
 .map {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  #FBFBFB;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    padding: 40pt;
 }
-.map b{
-    font-size: 25pt;
-    font-family: 'Gilroy-Regular', sans-serif;
+
+.map_text {
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
     text-align: left;
-    margin-left: 5%;
-    float: left;
 }
 
-.map img{
-    float: right;
+.map_text_buttons {
+    flex-direction: row;
+    justify-content: center; 
+    display: flex;
+    height: auto;
+    width: auto;
 }
 
-.map_text{
+.map_text b{
+    font-size: 40pt;
     display: flex;
     font-family: 'Gilroy-Regular', sans-serif;
-    margin-left: 5%;
+    font-weight: 700;
+}
+
+.map_text small {
+    font-family: 'Gilroy-Regular', sans-serif;
+    display: flex;
     font-size: 20pt;
-    float: left;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #9E9DA2;
+}
+
+.download_other {
+    margin-bottom: 8px;
+    margin-left: 4px;
+}
+
+/* .map {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10%;
+}
+
+.map_car {
+    object-fit: contain;
+
+}
+
+.map b{
+    font-size: 30pt;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: left;
+    font-weight: 500;
+
+}
+
+
+.map_text{
+
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 20pt;
     text-align: left;
     flex-direction: column;
+    margin-top: 30%;
+    align-items: flex-end;
+    align-content: flex-start
 }
 
 .map_text_buttons{
@@ -33,6 +85,9 @@
 }
 
 .map_text small{
+    display: flex;
+    font-size: 20pt;
     margin-top: 2%;
     margin-bottom: 5%;
-}
+    color: #9E9DA2;
+} */
