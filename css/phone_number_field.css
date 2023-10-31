@@ -58,3 +58,22 @@
     font-size: 15pt;
     font-weight: 600;
 }
+
+@media (max-width: 1600px) {
+    .phone_number_field {
+        display: flex;
+        flex-direction: column;
+    }
+    .phone_number_field_button_field {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20pt;
+    }
+    .phone_number_field_button {
+        text-align: center;
+    }
+    .phone_number_field_intro_text {
+        text-align: center;
+        margin-right: 0pt;
+    }
+}

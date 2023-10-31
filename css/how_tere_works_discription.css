@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.how_tere_works_discription {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #FBFBFB;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40pt;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+.htw_item_1{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+    text-align: right;
+}
+.htw_item_1 small {
+    padding-right: 20%;
+}
+.htw_item_1 b {
+    padding-right: 20%;
+}
+.htw_item_1 div {
+    padding-right: 20%;
+}
+.htw_item_2{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.htw_item_2 small {
+    padding-left: 20%;
+}
+.htw_item_2 b {
+    padding-left: 20%;
+}
+.htw_item_2 div {
+    padding-left: 20%;
+}
+.htw_item_3{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+    text-align: right;
+}
+.htw_item_3 small {
+    padding-right: 20%;
+}
+.htw_item_3 b {
+    padding-right: 20%;
+}
+.htw_item_3 div {
+    padding-right: 20%;
+}
+.htw_item_4{
+    order: 4;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.htw_item_4 small {
+    padding-left: 20%;
+}
+.htw_item_4 b {
+    padding-left: 20%;
+}
+.htw_item_4 div {
+    padding-left: 20%;
+}
+.phone_with_circle_container {
+    position: relative;
+    margin-top: -450;
+    width: 100%;
+    order: 5;
+}
+.phone_with_circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* первая колонка */
+/* .how_tere_works_discription_1_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 200pt;
+    text-align: right;
+} */
+.how_tere_works_discription small {
+    margin-bottom: 30pt;
+    color: #9E9DA2;
+    font-size: 12pt;
+    max-width: 200pt;
+}
+
+.number_icon {
+    position: relative;
+}
+
+.centered_1 {
+    position: absolute;
+    font-size: 25pt;
+    font-weight: 700;
+    font-family: 'Gilroy-Regular', sans-serif;
+    top: 12px;
+    left: 26px;
+    color: #75BF7A;
+}
+
+.centered_2 {
+    position: absolute;
+    font-size: 25pt;
+    font-weight: 700;
+    font-family: 'Gilroy-Regular', sans-serif;
+    top: 12px;
+    left: 23px;
+    color: #75BF7A;
+}
+
+.centered_3 {
+    position: absolute;
+    font-size: 25pt;
+    font-weight: 700;
+    font-family: 'Gilroy-Regular', sans-serif;
+    top: 12px;
+    left: 23px;
+    color: #75BF7A;
+}
+
+.centered_4 {
+    position: absolute;
+    font-size: 25pt;
+    font-weight: 700;
+    font-family: 'Gilroy-Regular', sans-serif;
+    top: 12px;
+    left: 21px;
+    color: #75BF7A;
+}
+
+/* .how_tere_works_discription_2_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 200pt;
+    text-align: left;
+    margin-left: 10pt;
+} */
+
+.phone_screen {
+    position: absolute;
+}
+.circle {
+    height: 300pt;
+    width: 300pt;
+    margin-top: 70pt;
+    background-color: #75BF7A;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media (max-width: 1600px) { /*choose the width you prefer*/
+    .how_tere_works_discription small {
+        text-align: center;
+    }
+    .how_tere_works_discription {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .phone_with_circle_container {
+        order: 0;
+        margin-top: 20pt;
+        height: 500pt;
+    }
+    .htw_item_1 {
+        order: 1;
+        width: 100%;
+        align-items: center
+    }
+    .htw_item_1 small {
+        padding-right: 0;
+    }
+    .htw_item_1 b {
+        padding-right: 0;
+    }
+    .htw_item_1 div {
+        padding-right: 0;
+    }
+
+
+    .htw_item_2 {
+        order: 2;
+        width: 100%;
+        align-items: center
+    }
+    .htw_item_2 small {
+        padding-left: 0;
+    }
+    .htw_item_2 b {
+        padding-left: 0;
+    }
+    .htw_item_2 div {
+        padding-left: 0;
+    }
+
+
+    .htw_item_3 {
+        order: 3;
+        width: 100%;
+        align-items: center
+    }
+    .htw_item_3 small {
+        padding-right: 0;
+    }
+    .htw_item_3 b {
+        padding-right: 0;
+    }
+    .htw_item_3 div {
+        padding-right: 0;
+    }
+
+    .htw_item_4 {
+        order: 4;
+        width: 100%;
+        align-items: center
+    }
+    .htw_item_4 small {
+        padding-left: 0;
+    }
+    .htw_item_4 b {
+        padding-left: 0;
+    }
+    .htw_item_4 div {
+        padding-left: 0;
+    }
+
+    /* .how_tere_works_discription_1_col {
+    }
+    .how_tere_works_discription_2_col {
+    }
+
+    .how_tere_works_discription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone_with_circle {
+        order: 0;
+    }
+    .htw_item_1 {
+        order: 1;
+    }
+    .htw_item_2 {
+        order: 2;
+    }
+    .htw_item_3 {
+        order: 3;
+    }
+    .htw_item_4 {
+        order: 4;
+    } */
+  }

@@ -47,6 +47,21 @@
     margin-left: 4px;
 }
 
+@media (max-width: 1600px) {
+    .map {
+        display: flex;
+        flex-direction: column;
+    }
+    .map_car_image {
+        order: 1;
+        margin-bottom: 20pt;
+    }
+    .map_text {
+        order: 2;
+        text-align: center;
+        width: 80%;
+    }
+}
 /* .map {
     display: flex;
     justify-content: space-between;
