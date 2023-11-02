@@ -168,6 +168,10 @@
     border-radius: 50%;
     display: inline-block;
 }
+.phone_screen_dots {
+    position: absolute;
+    padding-top: 600;
+}
 
 @media (max-width: 1600px) { /*choose the width you prefer*/
     .how_tere_works_discription small {

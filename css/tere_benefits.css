@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.tere_benefits_logo {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin-top: 100pt;
+    margin-bottom: 30pt;
+}
+
+body{ background-color: #FBFBFB}
+
+.tb_description {
+    display: flex;
+    font-family: 'Gilroy-Regular', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200pt;
+}
+
+/* первая плашка чел с часами */
+.tb_1 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 900pt;
+    height: 220pt;
+    margin-right: 20%;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_1_img_num {
+    position: absolute;
+    margin-left: 50pt;
+    margin-top: 60pt;
+}
+
+.tb_1 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 200;
+    margin-top: 58pt;
+}
+
+.tb_1 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 260pt;
+    margin-top: 160;
+    margin-left: 55pt;
+
+}
+.tb_1_img {
+    position: absolute;
+    margin-left: 600pt;
+    margin-top: 15pt;
+}
+
+/* вторая плашка бабло */
+.tb_2 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 900pt;
+    height: 220pt;
+    margin-left: 20%;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_2_img_num {
+    position: absolute;
+    margin-left: 550pt;
+    margin-top: 60pt;
+}
+
+.tb_2 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 650pt;
+    margin-top: 65pt;
+}
+
+.tb_2 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 260pt;
+    margin-top: 160;
+    margin-left: 560pt;
+
+}
+.tb_2_img {
+    position: absolute;
+    margin-left: 100pt;
+    margin-top: 30pt;
+}
+
+/* третья плашка мужик звонит */
+.tb_3 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 900pt;
+    height: 220pt;
+    margin-right: 20%;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_3_img_num {
+    position: absolute;
+    margin-left: 50pt;
+    margin-top: 60pt;
+}
+
+.tb_3 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 200;
+    margin-top: 58pt;
+}
+
+.tb_3 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 390pt;
+    margin-top: 160;
+    margin-left: 55pt;
+
+}
+.tb_3_img {
+    position: absolute;
+    margin-left: 570pt;
+    margin-top: 25pt;
+}
+
+
+@media (max-width: 1600px) {
+
+.tb_description {
+    display: flex;
+    font-family: 'Gilroy-Regular', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200pt;
+}
+    
+/* первая плашка чел с часами */
+.tb_1 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 360pt;
+    height: 420pt;
+    margin-right: 0;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_1_img_num {
+    position: absolute;
+    margin-left: 50pt;
+    margin-top: 60pt;
+}
+
+.tb_1 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 200;
+    margin-top: 58pt;
+}
+
+.tb_1 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 260pt;
+    margin-top: 320pt;
+    margin-left: 55pt;
+    text-align: center;
+
+}
+.tb_1_img {
+    position: absolute;
+    margin-left: 90pt;
+    margin-top: 120pt;
+}
+
+/* вторая плашка бабло */
+.tb_2 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 360pt;
+    height: 420pt;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_2_img_num {
+    position: absolute;
+    margin-left: 50pt;
+    margin-top: 60pt;
+}
+
+.tb_2 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 200;
+    margin-top: 58pt;
+}
+
+.tb_2 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 260pt;
+    margin-top: 320pt;
+    margin-left: 55pt;
+    text-align: center;
+
+}
+.tb_2_img {
+    position: absolute;
+    margin-left: 90pt;
+    margin-top: 120pt;
+}
+
+/* третья плашка мужик звонит */
+.tb_3 {
+    display: block;
+    background-color: #FFFFFF;
+    width: 360pt;
+    height: 420pt;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 10pt;
+    margin-top: 40pt;
+}
+.tb_3_img_num {
+    position: absolute;
+    margin-left: 50pt;
+    margin-top: 60pt;
+}
+
+.tb_3 b {
+    position: absolute;
+    font-size: 30;
+    width: 150pt;
+    margin-left: 200;
+    margin-top: 58pt;
+}
+
+.tb_3 small {
+    position: absolute;
+    color: #9E9DA2;
+    font-size: 15pt;
+    width: 260pt;
+    margin-top: 320pt;
+    margin-left: 55pt;
+    text-align: center;
+
+}
+.tb_3_img {
+    position: absolute;
+    margin-left: 90pt;
+    margin-top: 120pt;
+}
+
+}
